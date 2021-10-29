@@ -12,12 +12,12 @@
     }
 }
 
-.card--border {
+.card__body--border {
     border: solid 3px $color-pink;
     border-radius: 15px;
 }
 
-.card--pink {
+.card__body--pink {
     background-color: $color-pink;
     border-radius: 15px;
     border: solid 3px white;
