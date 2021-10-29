@@ -43,3 +43,9 @@ footer {
 .wrapper {
     flex: 1 0 auto;
 }
+
+@media(min-width:1300px) {
+    .wrapper {
+        height:100%;
+    }
+}

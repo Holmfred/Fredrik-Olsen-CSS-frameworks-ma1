@@ -72,6 +72,12 @@ footer {
           flex: 1 0 auto;
 }
 
+@media (min-width: 1300px) {
+  .wrapper {
+    height: 100%;
+  }
+}
+
 .navbar-brand {
   font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
   font-size: 36px;
