@@ -115,12 +115,12 @@ footer {
   }
 }
 
-.card--border {
+.card__body--border {
   border: solid 3px #C32C72;
   border-radius: 15px;
 }
 
-.card--pink {
+.card__body--pink {
   background-color: #C32C72;
   border-radius: 15px;
   border: solid 3px white;
