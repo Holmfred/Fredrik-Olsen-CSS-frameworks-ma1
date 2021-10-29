@@ -1,0 +1,20 @@
+.navbar-brand {
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    color: $color-logo !important; 
+}
+
+.navbar {
+    background-color: $color-nav !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $color-navtxt;
+    font-size: 18px;
+    font-family: 'Archivo Narrow', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: $color-pink;
+}
+

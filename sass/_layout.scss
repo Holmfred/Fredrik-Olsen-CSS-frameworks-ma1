@@ -1,0 +1,45 @@
+body, 
+html {
+    height: 100%;
+}
+
+body {
+    background-color: $color-background;
+}
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.col-lg-6, 
+.col-xl-3 {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $color-nav;
+    color: $color-navtxt;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+@media (min-width:900px){
+    footer {
+        flex-direction: row;
+    }
+} 
+
+.wrapper {
+    flex: 1 0 auto;
+}

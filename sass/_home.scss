@@ -1,0 +1,24 @@
+.card {
+    width: 357px;
+    height: 355px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+@media (min-width:1300px) {
+    .card {
+        width: 264px;
+        height: 263px;
+    }
+}
+
+.card--border {
+    border: solid 3px $color-pink;
+    border-radius: 15px;
+}
+
+.card--pink {
+    background-color: $color-pink;
+    border-radius: 15px;
+    border: solid 3px white;
+}
